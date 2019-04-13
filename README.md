@@ -1,4 +1,6 @@
-<img align="right" src="README.md.d/thumb.png">
+# rsync -azP -e "ssh -p PORT_NUMBER" source destination
+
+
 
 # lsix
 Like "ls", but for images. Shows thumbnails in terminal using [sixel](https://en.wikipedia.org/wiki/Sixel)
