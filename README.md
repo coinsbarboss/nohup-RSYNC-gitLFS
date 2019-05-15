@@ -1,4 +1,4 @@
-# Scripts survive terminal closure
+Scripts survive terminal closure
 # nohup ./script.sh &
 
 # |
