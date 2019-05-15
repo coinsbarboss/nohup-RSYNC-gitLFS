@@ -1,4 +1,4 @@
-# nohup ./script.sh &        ->  will survive terminal closure
+# "nohup ./script.sh &"        ->  will survive terminal closure
 
 # rsync -azP -e "ssh -p PORT_NUMBER" source destination
 
