@@ -1,5 +1,5 @@
 # Scripts survive terminal closure
-nohup ./script.sh &
+# nohup ./script.sh &
 
 # |
 
@@ -8,5 +8,6 @@ nohup ./script.sh &
 
 # GIT_LFS_INSTALL
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
+
 apt-get install git-lfs
 
