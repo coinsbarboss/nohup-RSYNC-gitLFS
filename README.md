@@ -1,3 +1,7 @@
+Creating / Extracting encrypted archive
+# tar czvpf - FILES | gpg --symmetric --cipher-algo aes256 -o FILES.tar.gz.gpg
+# gpg -d FILES.tar.gz.gpg | tar xzvf -
+
 Scripts survive terminal closure
 # nohup ./script.sh &
 
