@@ -1,3 +1,6 @@
+# RENAME FILES
+`find -name '*.png' | gawk 'BEGIN{ a=1 }{ printf "mv %s %04d.jpg\n", $0, a++ }' | bash`
+
 # Creating encrypted archive
 `tar czvpf - FILES | gpg --symmetric --cipher-algo aes256 -o FILES.tar.gz.gpg`
 
